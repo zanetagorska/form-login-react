@@ -1,0 +1,12 @@
+input[type="submit"].active {
+    background: green;
+    border: none;
+    color: white;
+}
+
+input[type="submit"].inactive {
+    background: #ccc;
+    border: #f0f0f0;
+    color: #8c8c8c;
+    cursor: not-allowed;
+}
